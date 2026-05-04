@@ -1,0 +1,23 @@
+# 忽略 Keil 编译产生的垃圾文件
+*.o
+*.d
+*.crf
+*.elf
+*.axf
+*.map
+*.htm
+*.sct
+*.dep
+*.lnp
+*.uvguix.*
+*.uvoptx
+
+# 忽略 Keil 自动生成的文件夹
+Objects/
+Listings/
+DebugConfig/
+
+# 忽略所有的压缩包备份
+*.zip
+*.rar
+*.7z
